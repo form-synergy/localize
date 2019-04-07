@@ -1,0 +1,32 @@
+{
+    "name": "form-synergy/localize-fallback",
+    "description": "This script will download and localize all modules within a strategy. If the connection between the API and FS service is broken, the javaScript client will re-rout simple interactions locally.",
+    "keywords": [
+        "form",
+        "synergy",
+        "package",
+        "web strategy",
+        "objectives",
+        "interactions",
+        "contact form",
+        "new letter subscription",
+        "request call back"
+    ],
+    "homepage": "https://formsynergy.com/",
+    "license": "MIT",
+    "authors": [{
+        "name": "Joseph G Chamoun",
+        "email": "formsynergy@gmail.coom",
+        "homepage": "https://github.com/form-synergy"
+    }],
+    "require": {
+        "php": ">=7.0",
+        "form-synergy/php-api": ">=1"
+    },
+    "replace": {
+        "form-synergy/localize-fallback": "self.version"
+    },
+    "autoload": {
+        "files": ["src/template.php"]
+    }
+}
